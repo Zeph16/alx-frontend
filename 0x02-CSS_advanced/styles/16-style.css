@@ -409,6 +409,10 @@ a:active {
   background-color: var(--color-light-grey);
 }
 
+section:is(h1, h2, h3, h4, h5, h6) {
+  font-family: var(--font-family-title);
+  font-weight: var(--font-weight-bold);
+}
 
 .visually-hidden {
   display: none;
@@ -437,7 +441,8 @@ a:active {
   font-weight: var(--font-weight-bold);
 }
 
-section:is(h1, h2, h3, h4, h5, h6) {
-  font-family: var(--font-family-title);
-  font-weight: var(--font-weight-bold);
+.container {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
 }
